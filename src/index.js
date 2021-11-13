@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from "./Cards";
-import "./index.css";
-import Sdata from "./Sdata";
+import "./Components/navbar.css"
+import "./index.css"; import Sdata from "./Sdata";
+import App from "./App";
+// import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
 
 
 
@@ -10,6 +13,11 @@ import Sdata from "./Sdata";
 
 ReactDOM.render(
   <>
+  <BrowserRouter>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </BrowserRouter>,
   <h1 className="heading_style">List of Top 5 FASAL in 2020</h1>
 
   <Card 
@@ -46,7 +54,7 @@ ReactDOM.render(
   title={Sdata[4].title}
   sname={Sdata[4].sname}
   link={Sdata[4].link}/> 
-
+ 
 
 
  </>,
