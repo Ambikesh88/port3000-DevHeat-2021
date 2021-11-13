@@ -33,6 +33,14 @@ const Service = () => {
       <section className="hero-section">
         <p>Welcome to </p>
         <h1>Our Service Page</h1>
+        <div className="service-container">
+        <a href ="https://kisanmitraweather.netlify.app/ " target = "_blank"> 
+        <button className="service-btn">Market Price</button></a>
+        <a href ="https://kisanmitraweather.netlify.app/ " target = "_blank"> 
+        <button className="service-btn">Pesticides Info</button></a>
+        <a href ="https://kisanmitraweather.netlify.app/ " target = "_blank"> 
+        <button className="service-btn">Yojnas Info</button></a>
+        </div>
       </section>
     </>
   );
@@ -56,7 +64,9 @@ const Weather = () => {
       <Navbar />
       <section className="hero-section">
         <p>Check the Climate  </p>
-        <h1>According to you Place</h1>
+        <h1>According to your place</h1>
+        <a href ="https://kisanmitraweather.netlify.app/ " target = "_blank"> 
+        <button className="btn">Check Here</button></a>
       </section>
     </>
   );
@@ -81,7 +91,7 @@ const App = () => {
         <Contact />
       </Route>
 
-      <Route path="/weather">
+      <Route path="/weather" >
         <Weather />
       </Route>
     </Switch>
