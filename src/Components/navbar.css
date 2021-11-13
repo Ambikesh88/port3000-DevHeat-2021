@@ -49,6 +49,7 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-left: 110px;
 }
 
 .social-media {
@@ -108,17 +109,7 @@ li {
   display: none;
 }
 
-.facebook {
-  color: #3b5998;
-}
 
-.instagram {
-  color: #c32aa3;
-}
-
-.youtube {
-  color: #ff0000;
-}
 
 /* hero section   */
 

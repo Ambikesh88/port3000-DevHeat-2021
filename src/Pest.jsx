@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
-function Yojna(props){
+
+function Pest(props){
     return(
       <>
       <div className="cards">
@@ -11,7 +11,7 @@ function Yojna(props){
             <span className="card_category"> {props.title} </span>
             <h3 className="card_title"> {props.sname} </h3>
             <a href={props.link} target="blank">
-              <button >Know More</button>
+              <button>Know More</button>
             </a>
           </div>
         </div>
@@ -20,4 +20,4 @@ function Yojna(props){
     )
   }
 
-  export default Yojna;
+  export default Pest;
