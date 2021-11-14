@@ -12,6 +12,9 @@ import Yojna from "./Yojna";
 import Yojnadata from './Yojnadata';
 import Pest from './Pest';
 import Pestdata from './Pestdata';
+import Renting from './Renting';
+import Rentingdata from './Rentingdata';
+
 
 //used the props for using cards and other props
 
@@ -20,7 +23,7 @@ ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
       <App />
-      
+     
     </React.StrictMode>
   </BrowserRouter>,
   <h1 className="heading_style">List of Crops with Market Price</h1>
@@ -99,7 +102,7 @@ ReactDOM.render(
   link={Yojnadata[5].link}/> 
 
 {/* for pest */}
-<h1 className="heading_style">Pest</h1>
+<h1 className="heading_style">Pesticides Info for Common Crops</h1>
 
   <Pest 
   imgsrc={Pestdata[0].imgsrc} 
@@ -136,7 +139,28 @@ ReactDOM.render(
   sname={Pestdata[5].sname}
   link={Pestdata[5].link}/> 
 
+{/* for renting */}
+<h1 className="heading_style">Renting</h1>
 
+<Renting 
+  imgsrc={Rentingdata[0].imgsrc} 
+  title={Rentingdata[0].title}
+  sname={Rentingdata[0].sname}
+  link={Rentingdata[0].link}/>
+
+  <Renting
+ imgsrc={Rentingdata[1].imgsrc} 
+ title={Rentingdata[1].title}
+ sname={Rentingdata[1].sname}
+ link={Rentingdata[1].link}/>
+
+  <Renting
+  imgsrc={Rentingdata[2].imgsrc} 
+  title={Rentingdata[2].title}
+  sname={Rentingdata[2].sname}
+  link={Rentingdata[2].link}/>
+
+ 
  </>,
    document.getElementById('root')
 );
