@@ -8,7 +8,7 @@ const Home = () => {
       <Navbar />
       <section className="hero-section">
         <p>Welcome to </p>
-        <h1>Kisan Bachao Enjoy the Modern Agriculture</h1>
+        <h1>Kisan Mitra Enjoy the Modern Agriculture</h1>
       </section>
     </>
   );
@@ -19,8 +19,8 @@ const About = () => {
     <>
       <Navbar />
       <section className="hero-section">
-        <p>Intro</p>
         <h1>About the Team</h1>
+        <p>We at Kisaan Mitra helps our farmers to boost their productivity and their market value through Modern Agriculture techniques. We provide one stop destination for market price of every Crop, Pesticides Information, Government Schemes, Renting Essential Farming Equipments, Weather Report and a quick customer support. Jai Jawan Jai Kisaan 🧑‍🌾</p>
       </section>
     </>
   );
