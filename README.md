@@ -1,3 +1,64 @@
+# Kisan Mitra
+
+This project was made under 2 days sprint Hackathon - "DevHeat"
+## We At Kisaan Mitra Helps Our Farmers To Boost Their Productivity And Their Market Value Through Modern Agriculture Techniques. We Provide One Stop Destination For Market Price Of Every Crop, Pesticides Information, Government Schemes, Renting Essential Farming Equipments, Weather Report And A Quick Customer Support. Jai Jawan Jai Kisaan 🧑‍🌾
+
+
+Hello Guys, our team port 3000 has come up with a solution on the topic "Back to the roots" named Kisan Mitra.
+It is basically a platform which provides one stop destination for farmers to boost their productivity rate.
+
+Also farmer can check weather from here.
+Now through this page Kisaan will get an idea which crop to grow currently by seeing market price to gain maximum profit from them.
+The problem is that Kisaan is not exposed to the opportunities or schemes currently running by the the government.
+this page contains all the current effective Government Schemes so that kisaan never misses out any beneficial schemes and can apply to it through the portal.
+
+Also one major problem is that kisan doesn't know some effective pesticides useful for the common crops so here kisaan can see the pesticides resulting in the effective growth of the crops.
+
+Problem is that poor farmers is unable to buy costly equipments used for farming. so Kisaan Mitra also provides renting of modern equipments at a nominal rates.
+
+Thank you everyone
+
+Video Link :  https://drive.google.com/file/u/3/d/1GRCwNeDiikmZCLcQ7_ZHir_L-m2Tzj6i/view?usp=sharing
+
+Landing Page :![image](https://user-images.githubusercontent.com/47691773/141694999-a1a1c3f2-42fd-4d1f-8daf-95a4f4a4cf15.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
