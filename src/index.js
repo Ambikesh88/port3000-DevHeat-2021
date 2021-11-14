@@ -63,36 +63,36 @@ ReactDOM.render(
 {/* //for yojna */}
 <h1 className="heading_style">Yojnas</h1>
 
-  <Card 
+  <Yojna 
   imgsrc={Yojnadata[0].imgsrc} 
   title={Yojnadata[0].title}
   sname={Yojnadata[0].sname}
   link={Yojnadata[0].link}/>
 
-  <Card
+  <Yojna
  imgsrc={Yojnadata[1].imgsrc} 
  title={Yojnadata[1].title}
  sname={Yojnadata[1].sname}
  link={Yojnadata[1].link}/>
 
-  <Card
+  <Yojna
   imgsrc={Yojnadata[2].imgsrc} 
   title={Yojnadata[2].title}
   sname={Yojnadata[2].sname}
   link={Yojnadata[2].link}/>
 
-<Card
+<Yojna
   imgsrc={Yojnadata[3].imgsrc} 
   title={Yojnadata[3].title}
   sname={Yojnadata[3].sname}
   link={Yojnadata[3].link}/>
 
-<Card
+<Yojna
   imgsrc={Yojnadata[4].imgsrc}  
   title={Yojnadata[4].title}
   sname={Yojnadata[4].sname}
   link={Yojnadata[4].link}/> 
-  <Card
+  <Yojna
   imgsrc={Yojnadata[5].imgsrc}  
   title={Yojnadata[5].title}
   sname={Yojnadata[5].sname}
@@ -101,36 +101,36 @@ ReactDOM.render(
 {/* for pest */}
 <h1 className="heading_style">Pest</h1>
 
-  <Card 
+  <Pest 
   imgsrc={Pestdata[0].imgsrc} 
   title={Pestdata[0].title}
   sname={Pestdata[0].sname}
   link={Pestdata[0].link}/>
 
-  <Card
+  <Pest
  imgsrc={Pestdata[1].imgsrc} 
  title={Pestdata[1].title}
  sname={Pestdata[1].sname}
  link={Pestdata[1].link}/>
 
-  <Card
+  <Pest
   imgsrc={Pestdata[2].imgsrc} 
   title={Pestdata[2].title}
   sname={Pestdata[2].sname}
   link={Pestdata[2].link}/>
 
-<Card
+<Pest
   imgsrc={Pestdata[3].imgsrc} 
   title={Pestdata[3].title}
   sname={Pestdata[3].sname}
   link={Pestdata[3].link}/>
 
-<Card
+<Pest
   imgsrc={Pestdata[4].imgsrc}  
   title={Pestdata[4].title}
   sname={Pestdata[4].sname}
   link={Pestdata[4].link}/> 
-  <Card
+  <Pest
   imgsrc={Pestdata[5].imgsrc}  
   title={Pestdata[5].title}
   sname={Pestdata[5].sname}
