@@ -1,5 +1,4 @@
 import React from "react";
-
 function Card(props){
     return(
       <>
@@ -14,7 +13,9 @@ function Card(props){
             <h3 className="card__title"> {props.sname} </h3>
             <a href={props.link} target="blank">
               <div className="btn-margin">
-              <button>Contact Farmers</button></div>
+                <a href="https://farmer-kisaan.netlify.app/">
+              <button id="beti">Contact Farmers</button></a>
+              </div>
             </a>
           </div>
         </div>
