@@ -23,7 +23,7 @@ ReactDOM.render(
       
     </React.StrictMode>
   </BrowserRouter>,
-  <h1 className="heading_style">List of Top 5 FASAL in 2020</h1>
+  <h1 className="heading_style">List of Crops with Market Price</h1>
 
   <Card 
   imgsrc={Sdata[0].imgsrc} 
@@ -55,10 +55,10 @@ ReactDOM.render(
   sname={Sdata[4].sname}
   link={Sdata[4].link}/> 
   <Card
-  imgsrc={Sdata[4].imgsrc}  
-  title={Sdata[4].title}
-  sname={Sdata[4].sname}
-  link={Sdata[4].link}/> 
+  imgsrc={Sdata[5].imgsrc}  
+  title={Sdata[5].title}
+  sname={Sdata[5].sname}
+  link={Sdata[5].link}/> 
  
 {/* //for yojna */}
 <h1 className="heading_style">Yojnas</h1>
