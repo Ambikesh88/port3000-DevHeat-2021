@@ -57,7 +57,7 @@ const Contact = () => {
         <p>Questions? </p>
         <h1>Send us the message</h1>
         <div className="service-container">
-        <a href ="mailid" > 
+        <a href ="contact" > 
         <button className="service-btn">kisanmitra@gmail.com</button></a>
     
 
