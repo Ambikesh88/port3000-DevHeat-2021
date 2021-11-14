@@ -3,6 +3,8 @@ import React from "react";
 function Card(props){
     return(
       <>
+            <div className="market1" id="marketid">
+
       <div className="cards">
         <div className="card">
           <img src={props.imgsrc}
@@ -17,6 +19,9 @@ function Card(props){
           </div>
         </div>
       </div>    
+      </div>
+
+
       </>
     )
   }

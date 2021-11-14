@@ -9,6 +9,7 @@ code {
   padding: 0;
   margin: 0;
   background-color: #d2dbdd;
+  scroll-behavior: smooth;
 }
 
 .heading_style{

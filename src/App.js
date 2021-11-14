@@ -34,11 +34,11 @@ const Service = () => {
         <p>Welcome to </p>
         <h1>Our Service Page</h1>
         <div className="service-container">
-        <a href ="https://kisanmitraweather.netlify.app/ " target = "_blank"> 
+        <a href ="marketid" > 
         <button className="service-btn">Market Price</button></a>
-        <a href ="https://kisanmitraweather.netlify.app/ " target = "_blank"> 
+        <a href ="pestid" > 
         <button className="service-btn">Pesticides Info</button></a>
-        <a href ="https://kisanmitraweather.netlify.app/ " target = "_blank"> 
+        <a href ="yojnaid" > 
         <button className="service-btn">Yojnas Info</button></a>
         </div>
       </section>

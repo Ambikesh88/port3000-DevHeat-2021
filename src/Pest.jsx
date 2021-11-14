@@ -3,6 +3,8 @@ import React from "react";
 function Pest(props){
     return(
       <>
+   <div className="pest1" id="pestid">
+
       <div className="cards">
         <div className="card">
           <img src={props.imgsrc}
@@ -16,6 +18,7 @@ function Pest(props){
           </div>
         </div>
       </div>    
+      </div>
       </>
     )
   }
