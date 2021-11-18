@@ -1,8 +1,9 @@
 import React from "react";
-function Card(props){
+
+function Renting(props){
     return(
       <>
-            <div className="market1" id="marketid">
+   <div className="pest1" id="pestid">
 
       <div className="cards">
         <div className="card">
@@ -12,21 +13,14 @@ function Card(props){
             <span className="card__category"> {props.title} </span>
             <h3 className="card__title"> {props.sname} </h3>
             <a href={props.link} target="blank">
-              <div className="btn-margin">
-                <a href="https://farmer-kisaan.netlify.app/">
-              <button id="beti">Contact Farmers</button></a>
-              </div>
+              <button>Know More</button>
             </a>
           </div>
         </div>
       </div>    
       </div>
-
-
       </>
     )
   }
 
-  export default Card;
-
-  //used cards 
+  export default Renting;

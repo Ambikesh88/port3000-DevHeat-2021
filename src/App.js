@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import { Switch, Route } from "react-router-dom";
-
 const Home = () => {
   return (
     <>
       <Navbar />
+      
       <section className="hero-section">
         <p>Welcome to </p>
         <h1>Kisan Mitra Enjoy the Modern Agriculture</h1>
@@ -40,6 +40,8 @@ const Service = () => {
         <button className="service-btn">Pesticides Info</button></a>
         <a href ="yojnaid" > 
         <button className="service-btn">Yojnas Info</button></a>
+        <a href ="rentingid" > 
+        <button className="service-btn">Renting</button></a>
         </div>
       </section>
     </>
@@ -50,9 +52,16 @@ const Contact = () => {
   return (
     <>
       <Navbar />
+      
       <section className="hero-section">
         <p>Questions? </p>
         <h1>Send us the message</h1>
+        <div className="service-container">
+        <a href ="contact" > 
+        <button className="service-btn">kisanmitra@gmail.com</button></a>
+    
+
+        </div>
       </section>
     </>
   );
