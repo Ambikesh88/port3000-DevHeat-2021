@@ -71,23 +71,17 @@ ReactDOM.render(
 {/* for renting */}
 <h1 className="heading_style">Renting</h1>
 
-<Renting 
-  imgsrc={Rentingdata[0].imgsrc} 
-  title={Rentingdata[0].title}
-  sname={Rentingdata[0].sname}
-  link={Rentingdata[0].link}/>
 
-  <Renting
- imgsrc={Rentingdata[1].imgsrc} 
- title={Rentingdata[1].title}
- sname={Rentingdata[1].sname}
- link={Rentingdata[1].link}/>
-
-  <Renting
-  imgsrc={Rentingdata[2].imgsrc} 
-  title={Rentingdata[2].title}
-  sname={Rentingdata[2].sname}
-  link={Rentingdata[2].link}/>
+{Rentingdata.map((val) => {
+  return(
+  <Renting 
+  imgsrc={val.imgsrc} 
+  title={val.title}
+  sname={val.sname}
+  link={val.link}
+  />
+  );
+})}
 
  
  </>,
